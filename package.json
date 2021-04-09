@@ -2,7 +2,7 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "A weather application about Lens",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
@@ -15,9 +15,10 @@
   "author": "Floriane Dazin",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "eslint": "^7.23.0"
+    "eslint": "^6.0.0"
   }
 }
