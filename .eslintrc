@@ -1,0 +1,7 @@
+// Contents of .eslintrc at root of project - support for Node
+{
+ "env":{
+   "node": true,
+   "amd": true
+}
+}
