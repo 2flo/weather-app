@@ -1,11 +1,12 @@
 //var http = require('http-signature');
 var url = 'https://api.openweathermap.org/data/2.5/weather?q=Lens&units=metric&lang=FR&appid=652be37c6135ed27ef8faa0d818e900c';
 var request = new XMLHttpRequest();
+var body = document.getElementsByTagName('body');
 //var server = http.createServer(function ( request, response ) {
 // All logic will go here
 request.open('GET', url);
 request.responseType = 'json';
-request.send(./index.html);
+request.send();
 request.onload = function(){
   var weather = request.response;
   infoHeader(weather);
